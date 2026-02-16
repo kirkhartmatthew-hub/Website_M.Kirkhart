@@ -1,0 +1,51 @@
+/* Basic color scheme */
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    background-color: #2e8b57 !important;
+}
+
+nav a.nav-link {
+    color: #f8f9fa !important;
+}
+
+nav a.nav-link:hover {
+    color: #ffd700 !important; /* Gold on hover */
+}
+
+/* Sidebar and footer styling */
+aside {
+    border-left: 4px solid #2e8b57;
+}
+
+footer {
+    background-color: #222 !important;
+    color: #ccc;
+}
+
+/* Responsive table tweaks */
+table {
+    margin-top: 20px;
+}
+
+thead th {
+    background-color: #343a40 !important;
+    color: #fff;
+}
+
+/* Zebra striping already handled by Bootstrap's table-striped */
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    aside {
+        margin-top: 20px;
+    }
+}
